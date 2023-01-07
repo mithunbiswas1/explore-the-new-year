@@ -14,6 +14,8 @@ p{
     color: #444343;
 }
 
+/* Header Section */
+
 .header{
     background-image: url(images/banner/banner2.png);
     text-align: right;
@@ -63,7 +65,7 @@ main{
 
 .about {
     display: flex;
-    margin-top: 100px;
+    margin: 60px 0px;
 }
 
 .about-title{
@@ -75,14 +77,44 @@ main{
 }
 
 .about-me {
-    padding: 180px 0 180px 80px;
+    padding: 220px 60px;
 }
 
-ul > li {
+.about-me ul > li {
     list-style: none;
     margin-bottom: 10px;
 }
 
-ul > li i {
+.about-me ul > li i {
     color: #0fbb73;
     margin-right: 8px;
+}
+
+/* My Plant Section */
+
+.my-plans {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.my-plans-section {
+    display: flex;
+    gap: 12.4%;
+    margin-top: 60px;
+}
+
+.my-plans-title {
+    font-size: 36px;
+}
+
+.my-plans-section h4 {
+    font-size: 26px;
+    margin-top: 14px;
+}
+
+.my-plans-sec h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 8px;
+}
