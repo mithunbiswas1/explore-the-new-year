@@ -1,8 +1,17 @@
+/* Default Section */
+
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
+}
+
+h1{
     color: #151414;
+}
+
+p{
+    color: #444343;
 }
 
 .header{
@@ -43,3 +52,37 @@
     text-decoration: none;
 }
 
+/* Main Section */
+
+main{
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+/* About Section */
+
+.about {
+    display: flex;
+    margin-top: 100px;
+}
+
+.about-title{
+    font-size: 36px;
+}
+
+.about-description {
+    margin: 20px 0;
+}
+
+.about-me {
+    padding: 180px 0 180px 80px;
+}
+
+ul > li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul > li i {
+    color: #0fbb73;
+    margin-right: 8px;
