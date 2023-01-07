@@ -99,7 +99,7 @@ main{
 
 .my-plans-section {
     display: flex;
-    gap: 12.4%;
+    gap: 144px;
     margin-top: 60px;
 }
 
@@ -117,4 +117,37 @@ main{
     font-weight: 500;
     color: #737272;
     margin-top: 8px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    background-image: linear-gradient(to left, rgb(241 91 34 / 10%), #f15d227e), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 60px;
+    margin: 100px 0;
+}
+
+.contact-title {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: -10px;
+}
+
+.contact-button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 35px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.contact-button a{
+    color: #f15b22;
+    text-decoration: none;
 }
